@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hatirla_beni/feature/home/home_view.dart';
+import 'package:hatirla_beni/product/initialize/app_start_init.dart';
 
-void main() {
+void main() async {
+  await AppStartInitialize.init();
   runApp(const ProviderScope(child: MyApp()));
 }
 
