@@ -1,7 +1,10 @@
+import 'package:firebase_ui_localizations/firebase_ui_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hatirla_beni/feature/home/home_view.dart';
+import 'package:hatirla_beni/feature/login/authentication_view.dart';
 import 'package:hatirla_beni/product/initialize/app_start_init.dart';
+import 'package:hatirla_beni/product/initialize/app_theme.dart';
+import 'package:hatirla_beni/product/lang/label_overrides.dart';
 
 void main() async {
   await AppStartInitialize.init();
@@ -14,12 +17,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      localizationsDelegates: [
+        FirebaseUILocalizations.withDefaultOverrides(const LabelOverrides()),
+        FirebaseUILocalizations.delegate,
+      ],
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const HomeView(),
+      theme: AppTheme().theme,
+      home: const AuthenticationView(),
     );
   }
 }
