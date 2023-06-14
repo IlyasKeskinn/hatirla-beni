@@ -19,6 +19,7 @@ class _HomeViewState extends ConsumerState<HomeView> {
     return Scaffold(
       appBar: AppBar(
           title: const TitleText(value: AppStringConst.appName),
+          automaticallyImplyLeading: false,
           actions: [
             InkWell(
               onTap: () {
@@ -26,7 +27,7 @@ class _HomeViewState extends ConsumerState<HomeView> {
                     type: SlideType.BOTTOM);
               },
               child: const _profile_avatar(),
-            )
+            ),
           ]),
     );
   }
