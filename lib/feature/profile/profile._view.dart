@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hatirla_beni/enums/image_const.dart';
-import 'package:hatirla_beni/feature/login/authentication_view.dart';
+import 'package:hatirla_beni/feature/login/auth_page.dart';
 import 'package:hatirla_beni/product/constants/app_string_const.dart';
 import 'package:hatirla_beni/product/constants/color_const.dart';
 import 'package:hatirla_beni/product/widget/text/title_text.dart';
@@ -31,6 +31,7 @@ class _ProfileViewState extends ConsumerState<ProfileView> {
               const _ProfileBio(),
               context.emptySizedHeightBoxNormal,
               const _SettingsColumn(),
+              context.emptySizedHeightBoxLow3x,
               const _LogoutButton(),
             ],
           ),
@@ -49,19 +50,23 @@ class _ProfileBio extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        DecoratedBox(
-          decoration: BoxDecoration(borderRadius: BorderRadius.circular(100)),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(100),
-            child: Image.asset(
-              ImageConst.avatar.toPath,
-              height: 100,
-              width: 100,
+        Hero(
+          tag: 'profile-photo',
+          child: DecoratedBox(
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(100)),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(100),
+              child: Image.asset(
+                ImageConst.avatar.toPath,
+                height: 100,
+                width: 100,
+              ),
             ),
           ),
         ),
         context.emptySizedHeightBoxLow,
-        TitleText(value: FirebaseAuth.instance.currentUser!.email.toString()),
+        TitleText(
+            value: FirebaseAuth.instance.currentUser!.displayName.toString()),
       ],
     );
   }
@@ -81,22 +86,27 @@ class _SettingsColumn extends StatelessWidget {
           leadingIcon: const Icon(Icons.person_outline),
           settingsName: AppStringConst.profileSettings.toCapitalized(),
         ),
+        context.emptySizedHeightBoxLow3x,
         _settingsTile(
             func: () {},
             leadingIcon: const Icon(Icons.add_outlined),
             settingsName: AppStringConst.profileAddNewUser.toCapitalized()),
+        context.emptySizedHeightBoxLow3x,
         _settingsTile(
             func: () {},
             leadingIcon: const Icon(Icons.switch_account_outlined),
             settingsName: AppStringConst.profileSwitchUser.toCapitalized()),
+        context.emptySizedHeightBoxLow3x,
         _settingsTile(
             func: () {},
             leadingIcon: const Icon(Icons.star_border_outlined),
             settingsName: AppStringConst.profileRateApp.toCapitalized()),
+        context.emptySizedHeightBoxLow3x,
         _settingsTile(
             func: () {},
             leadingIcon: const Icon(Icons.privacy_tip_outlined),
             settingsName: AppStringConst.profilePrivacy.toCapitalized()),
+        context.emptySizedHeightBoxLow3x,
         _settingsTile(
             func: () {},
             leadingIcon: const Icon(Icons.flash_on_outlined),
@@ -113,7 +123,7 @@ class _LogoutButton extends StatelessWidget {
   Widget build(BuildContext context) {
     Future<void> logOut() async {
       await FirebaseAuth.instance.signOut();
-      await context.navigateToPage(const AuthenticationView());
+      await context.navigateToPage(const AuthPage());
     }
 
     return TextButton.icon(
@@ -140,14 +150,12 @@ class _settingsTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: ListTile(
-        iconColor: ColorConst.white,
-        leading: leadingIcon,
-        title: Text(settingsName),
-        trailing: IconButton(
-            onPressed: func, icon: const Icon(Icons.chevron_right_outlined)),
-      ),
+    return ListTile(
+      iconColor: ColorConst.white,
+      leading: leadingIcon,
+      title: Text(settingsName),
+      trailing: IconButton(
+          onPressed: func, icon: const Icon(Icons.chevron_right_outlined)),
     );
   }
 }
