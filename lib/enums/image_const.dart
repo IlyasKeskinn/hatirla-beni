@@ -1,4 +1,5 @@
 enum ImageConst {
+  appLogo('app_logo'),
   avatar('profile-avatar');
 
   final String value;

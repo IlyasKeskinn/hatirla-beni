@@ -1,6 +1,8 @@
 class AppStringConst {
 //BASE
   static const String appName = 'Hatırla Beni';
+  static const String networkError =
+      'İnternet bağlantısı yok. Lütfen internet bağlantınızı kontrol edin.';
 
   static const String anonymouslySign = 'Misafir Girişi';
 

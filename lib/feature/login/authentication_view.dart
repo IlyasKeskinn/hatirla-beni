@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hatirla_beni/feature/home/home_view.dart';
 import 'package:hatirla_beni/feature/login/authentication_provider.dart';
 import 'package:hatirla_beni/product/constants/app_string_const.dart';
+import 'package:hatirla_beni/product/constants/color_const.dart';
 import 'package:hatirla_beni/project_keys/project_keys.dart';
 import 'package:kartal/kartal.dart';
 
@@ -82,11 +83,20 @@ class _AuthenticationViewState extends ConsumerState<AuthenticationView> {
                     provider: GoogleProvider(
                         clientId: ProjectKeys.client_id,
                         redirectUri: ProjectKeys.redirect_uri)),
-                ElevatedButton(
-                    onPressed: () {
-                      signInAnonymously();
-                    },
-                    child: const Text(AppStringConst.anonymouslySign))
+                Row(
+                  children: [
+                    Expanded(
+                      child: ElevatedButton(
+                          style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all<Color>(
+                                  ColorConst.grey)),
+                          onPressed: () {
+                            signInAnonymously();
+                          },
+                          child: const Text(AppStringConst.anonymouslySign)),
+                    ),
+                  ],
+                )
               ],
             ),
           )),
