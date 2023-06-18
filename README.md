@@ -66,3 +66,38 @@ Hatırla Beni, unutkan yaşlılar ve yoğun hasta bakımıyla uğraşan hemşire
 - **Hastalar**: Kronik hastalıkları olan veya düzenli ilaç kullanımı gereken hastalar, Hatırla Beni uygulamasıyla ilaç takibini hatırlayabilir, ölçümlerini düzenli olarak yapabilir.
 
 - **Hemşireler ve Bakıcılar**: Yoğun hasta bakımıyla uğraşan hemşireler ve bakıcılar, Hatırla Beni uygulaması aracılığıyla hasta ilaç takiplerini yönetebilir, önemli ölçümleri takip edebilir ve hastalarla iletişimdeki süreci kolaylaştırabilir.
+
+# Sprint 1
+- Sprint 1 İçeresinde tamamlanması gereken puan : 18
+
+- Puan tamamlama mantığı : Toplamda proje boyunca tamamlanması gereken 76 puanlık backlog bulunmaktadır. İlk sprintte ekip üyelerinin yoğunluklarından dolayı ilk sprintte en azından 18 puan ile başlanmasına karar verildi. 2. Ve 3. Sprint için kalan puanlar paylaştırıldı.
+
+- Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:[Sprint 1 Daily Scrum Chats](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Sprint 1 Daily Scrum Chats.docx)
+- Sprint board update: Sprint board screenshotları:
+![Sprint 1 Board-1](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Sprint Board\1.png)
+![Sprint 1 Board-2](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Sprint Board\2.png)
+
+- Ürün Durumu: Ekran görüntüleri:
+![Sprint 1 Ekran Görüntüleri-1](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Product Screenshot\Splash-1.jpeg)
+![Sprint 1 Ekran Görüntüleri-2](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Product Screenshot\Splash-2.jpeg)
+![Sprint 1 Ekran Görüntüleri-3](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Product Screenshot\Sign.jpeg)
+![Sprint 1 Ekran Görüntüleri-4](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Product Screenshot\Register.jpeg)
+![Sprint 1 Ekran Görüntüleri-5](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Product Screenshot\Password.jpeg)
+![Sprint 1 Ekran Görüntüleri-6](C:\Dosyalar\Flutter\hatirla-beni\product\Sprint 1\Product Screenshot\Profile.jpeg)
+
+***Sprint Review:*** Bu sprintte, ürünün kullanıcı arayüzü UI tasarımı oluşturuldu ve Firebase entegrasyonu tamamlandı. Ayrıca, kullanıcıların giriş yapması ve kaydolması gibi kimlik doğrulama işlemleri gerçekleştirildi. Ayrıca, uygulama başlangıcında kullanılan bir splash ekranı ve profil arayüzü kodları da geliştirildi. Bu sprintte temel kullanıcı işlevselliği ve arayüz tasarımı önemli ölçüde tamamlandı.
+
+***Sprint Retrospective:*** 
+Takım olarak, UI tasarımının başarıyla tamamlandığını ve Firebase entegrasyonunun sağlandığını görmekten mutluluk duyuyoruz. Ayrıca, kullanıcı kimlik doğrulama işlemlerinin başarıyla gerçekleştirildiği ve profil arayüzünün kodlandığı bir dönem geçirdik. Ancak, gelecekteki sprintlerde şu alanlarda iyileştirme yapmaya odaklanmayı düşünüyoruz: 
+- Hızlı ve hatasız kodlama,
+- Projenin tamamlanması için daha fazla projeye zaman ayırma  
+- Takım içi iletişimi güçlendirme 
+Bu geriye dönüşlerle, gelecek sprintlerde daha etkili bir şekilde ilerlemeyi hedefliyoruz.
+
+
+
+
+
+
+
+
