@@ -70,9 +70,9 @@ Hatırla Beni, unutkan yaşlılar ve yoğun hasta bakımıyla uğraşan hemşire
 # Sprint 1
 - ***Sprint 1 İçeresinde tamamlanması gereken puan :*** 18
 
-- ***Puan tamamlama mantığı :*** Toplamda proje boyunca tamamlanması gereken 76 puanlık backlog bulunmaktadır. İlk sprintte ekip üyelerinin yoğunluklarından dolayı ilk sprintte en azından 18 puan ile başlanmasına karar verildi. 2. Ve 3. Sprint için kalan puanlar paylaştırıldı.
+- ***Puan tamamlama mantığı :*** Toplamda proje boyunca tamamlanması gereken 76 puanlık backlog bulunmaktadır. İlk sprintte ekip üyelerinin yoğunluklarından dolayı sprintte en azından 18 puan ile başlanmasına karar verildi. 2. ve 3. Sprint için kalan puanlar paylaştırıldı.
 
-- ***Daily Scrum:*** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:[Sprint 1 Daily Scrum Chats](https://github.com/IlyasKeskinn/hatirla-beni/files/11781206/Sprint.1.Daily.Scrum.Chats.docx)
+- ***Daily Scrum:*** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir : [Sprint 1 Daily Scrum Chats](https://github.com/IlyasKeskinn/hatirla-beni/files/11781206/Sprint.1.Daily.Scrum.Chats.docx)
 
 - ***Sprint board update:*** Sprint board screenshotları:
 
