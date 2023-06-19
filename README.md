@@ -15,7 +15,7 @@ Flutter 99 Takımı
  ***Hatırla Beni*** 
 
 ## Product Backlog Url
-[Flutter team 99 Miro Backlog Board](https://miro.com/app/board/uXjVMAe9AsY=/)
+[Flutter team 99 Miro Backlog Board]([https://miro.com/app/board/uXjVMAe9AsY=/](https://miro.com/app/board/uXjVMAe9AsY=/?share_link_id=286757053050))
  
 
 # Ürün
@@ -76,7 +76,7 @@ Hatırla Beni, unutkan yaşlılar ve yoğun hasta bakımıyla uğraşan hemşire
 
 - ***Sprint board update:*** Sprint board screenshotları:
 
-  ![3](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/317ee748-9b7b-4456-a8aa-8dccbee6b9a1)
+![3](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/317ee748-9b7b-4456-a8aa-8dccbee6b9a1)
 
 
  
