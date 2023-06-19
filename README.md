@@ -76,9 +76,8 @@ Hatırla Beni, unutkan yaşlılar ve yoğun hasta bakımıyla uğraşan hemşire
 
 - ***Sprint board update:*** Sprint board screenshotları:
 
-  
-![1](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/576dc3d0-57f5-43de-a609-cdc3392d5039)
-![2](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/906508cd-3d44-4bc1-8fd0-384d0e0795c0)
+  ![3](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/317ee748-9b7b-4456-a8aa-8dccbee6b9a1)
+
 
  
 
