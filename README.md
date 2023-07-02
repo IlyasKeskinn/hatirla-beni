@@ -104,8 +104,33 @@ Bu geriye dönüşlerle, gelecek sprintlerde daha etkili bir şekilde ilerlemeyi
 
 
 
+# Sprint 2
+
+- ***Sprint 1 İçeresinde tamamlanması gereken puan :*** 32
+
+- Sprint Notları: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+
+- ***Sprint board update:*** Sprint board screenshotları:
+![reminder-app-board](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/c54742b3-5172-4b25-8db1-a1f27608d865)
+
+- Ürün Durumu: Ekran görüntüleri:
+<img src="https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/dd112453-f630-46eb-8348-e9aeedb274b4" alt="Açıklama" width="325" height="700">
+<img src="https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/950e6f60-ae34-475f-879a-2fd0a3bb1693" alt="Açıklama" width="325" height="700">
+<img src="https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/56799bf3-bb3f-4c1a-a60d-c839fad6caf0" alt="Açıklama" width="325" height="700">
+ 
 
 
 
+- ***Daily Scrum:*** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir :
+- [Sprint 2.docx](https://github.com/IlyasKeskinn/hatirla-beni/files/11929176/Sprint.2.docx)
 
+***Sprint Retrospective:*** 
+Takım olarak, bu sprinte gereken zamanı ayırmadığımız için hiç bir görevi başarıyla bitiremedik. 
 
+***Sprint Retrospective:*** 
+Gelecek son sprintte şu alanlarda iyileştirme yapmaya odaklanmayı düşünüyoruz: 
+- Takım olarak daha sıkı iletişim halinde olmak.
+- Çalışabilen bir proje çıkarmak için daha fazla zaman ve emek harcama.
+- Hedeflerimizi basit algoritmalar kurarak tamamlama.
+  
