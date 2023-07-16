@@ -106,7 +106,7 @@ Bu geriye dönüşlerle, gelecek sprintlerde daha etkili bir şekilde ilerlemeyi
 
 # Sprint 2
 
-- ***Sprint 1 İçeresinde tamamlanması gereken puan :*** 32
+- ***Sprint 2 İçeresinde tamamlanması gereken puan :*** 32
 
 - Sprint Notları: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
@@ -133,4 +133,22 @@ Gelecek son sprintte şu alanlarda iyileştirme yapmaya odaklanmayı düşünüy
 - Takım olarak daha sıkı iletişim halinde olmak.
 - Çalışabilen bir proje çıkarmak için daha fazla zaman ve emek harcama.
 - Hedeflerimizi basit algoritmalar kurarak tamamlama.
-  
+
+  # Sprint 3
+
+- ***Sprint 3 İçeresinde tamamlanması gereken puan :*** 26
+
+- Sprint Notları: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+
+- ***Sprint board update:*** Sprint board screenshotları:
+![sprint 3](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/8895e63c-8e0f-4350-bf61-12637ff882f8)
+
+- ***Daily Scrum:*** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir :
+- [Sprint 2.docx](https://github.com/IlyasKeskinn/hatirla-beni/files/11929176/Sprint.2.docx)
+
+***Sprint Retrospective:*** 
+Takım olarak, bu sprinte gereken zamanı ayırmadığımız için hiç bir görevi başarıyla bitiremedik. 
+
+***Sprint Retrospective:*** 
+Projenin neden başarısız olduğu hakkında yaptığımız sprint retrospektifinde, kimsenin motivasyonun olmadığını fark ettik ama yine de çok çalışmamıza rağmen  projeyi bitiremedik.
