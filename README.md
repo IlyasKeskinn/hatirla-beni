@@ -145,7 +145,6 @@ Gelecek son sprintte şu alanlarda iyileştirme yapmaya odaklanmayı düşünüy
 ![sprint 3](https://github.com/IlyasKeskinn/hatirla-beni/assets/86023697/8895e63c-8e0f-4350-bf61-12637ff882f8)
 
 - ***Daily Scrum:*** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir :
-- [Sprint 2.docx](https://github.com/IlyasKeskinn/hatirla-beni/files/11929176/Sprint.2.docx)
 
 ***Sprint Retrospective:*** 
 Takım olarak, bu sprinte gereken zamanı ayırmadığımız için hiç bir görevi başarıyla bitiremedik. 
